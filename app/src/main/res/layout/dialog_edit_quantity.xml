@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/btn_background"
+
+              android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_large"
+        android:gravity="center"
+        android:text="@string/labelQuantity"
+        android:textColor="@color/black"
+        android:textSize="@dimen/font_large"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:gravity="center"
+        android:text="@string/labelRequiredQuantity"/>
+
+    <EditText
+        android:id="@+id/editQuantity"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_large"
+        android:inputType="number"
+        android:background="@drawable/bg_edit_text"
+        android:padding="@dimen/margin_medium"/>
+
+
+    <Button
+        android:id="@+id/buttonChangeQuantity"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:background="@drawable/bg_button"
+        android:text="@string/label_done"
+        android:textAllCaps="false"
+        android:textColor="@color/white"/>
+
+</LinearLayout>

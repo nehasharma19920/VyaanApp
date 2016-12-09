@@ -1,0 +1,402 @@
+<resources>
+    <string name="app_name">Vyaan</string>
+
+
+    <string name="facebook_app_id">1360221944006655</string>
+    <!--VALIDATOR-->
+    <string name="error_phone_no_invalid">Please provide 10 digit mobile number</string>
+    <string name="error_additional_zero">Please provide number without zero</string>
+
+    <string name="error_invalid_email_id">Please provide valid email id</string>
+    <string name="error_empty_email_id">Please provide  email id</string>
+    <string name="title_activity_forgot_password">ForgotPassword</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="title_change_password">Chnage Password</string>
+    <string name="title_all_addresses">Select your delivery address</string>
+    <string name="title_cart">Cart</string>
+    <string name="title_address">New Address</string>
+    <string name="title_edit_address">Edit Address</string>
+    <string name="title_city">Select City</string>
+    <string name="title_Locality">Select Locality</string>
+    <string name="title_confirm_order">Confirm Order</string>
+    <string name="title_plan_details">Plan Details</string>
+    <string name="title_day_details">Day Details</string>
+
+    <string name="error_password_empty">Please enter password</string>
+
+
+    <string name="label_login">Login</string>
+    <string name="label_add_address">Add New Address</string>
+    <string name="message_increase">Increase</string>
+    <string name="message_decrease">Decrease</string>
+    <string name="message_reorder">Reorder</string>
+    <string name="label_change_quantity">Change Quantity</string>
+    <string name="labelUpdate">Update</string>
+    <string name="hint_email">Email Id</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_sign_up">Sign-Up</string>
+    <string name="hint_forgot_password"><u>Forgot Password?</u></string>
+    <string name="label_Or_Login"><u>Or Login with</u></string>
+
+
+    <string name="hint_name">Name</string>
+    <string name="hint_phone_no">Phone Number</string>
+
+    <string name="label_sign_up">Sign Up</string>
+    <string name="label_already_sign_up">Already Signed-Up</string>
+    <string name="emailNotExist">Email id not exist</string>
+
+    <string name="nwk_error_forgot_password">Error coccurder in restting password </string>
+
+
+    <!--app_resources-->
+    <string name="pdialog_message_loading">Loading please wait..</string>
+    <string name="alert_message_no_network">Network not available please try again </string>
+    <string name="alert_ok_button_text_no_network">ok</string>
+    <string name="alert_cancel_button_text_no_network">cancel</string>
+    <string name="labelOk">Ok</string>
+    <string name="labelCancel">Cancel</string>
+
+    <string name="errorEmail">Please enter email</string>
+
+    <string name="nwk_response_forgot_password">Forgot password response </string>
+
+    <string name="alert_username_incorrect">Username or password is incorrect</string>
+    <string name="alert_email_registered">Emial id is already registered please try with diferent one</string>
+
+    <string name="error_login">Login Error</string>
+    <string name="error_signup">Signup Error</string>
+
+    <string name="alert_product_coming_soon">Product will be coming soon</string>
+
+    <string name="label_fb_login_button">Login with Facebook</string>
+    <string name="label_google_login_button">Login with Google</string>
+
+
+    <string name="errorLogin">Eror in Login</string>
+    <string name="errorUpdateGcm">Eror in update gcm token</string>
+    <string name="errorFacebookLogin">Eror facebook Login</string>
+    <string name="errorGoogleLogin">Eror google Login</string>
+    <string name="errorPlan">Eror in Fetching plan details</string>
+    <string name="errorAddSubscription">Eror in Add Subscription</string>
+    <string name="errorIncreaseSubscription">Eror increase Subscription</string>
+    <string name="errorAddToCart">Eror in adding cart</string>
+    <string name="errorPlaceOrder">Eror Place order</string>
+    <string name="errorUpdateAddress">Eror Updatye Address</string>
+    <string name="emptyName">Please enter name </string>
+    <string name="emptyEmail">Please enter email</string>
+    <string name="emptyPassword">Please enter password</string>
+    <string name="emptyPhoneNo">Please enter phoneNo</string>
+
+
+    <string name="labelName">Name</string>
+    <string name="labekEmail">Email</string>
+    <string name="labelPhoneNo">Phone</string>
+    <string name="labelGender">Gender</string>
+  <!-- // <string name="labelPincode">Pincode</string>-->
+
+    <string name="labelMale">Male</string>
+    <string name="labelML"> ML</string>
+    <string name="labelFemale">Female</string>
+
+    <string name="labelSave">Save</string>
+    <string name="labelChangePassword">Change Password</string>
+
+    <string name="labelAddressTitle">Address Title</string>
+    <string name="labelAddressLine1">Address Line 1</string>
+    <string name="labelAddressLine2">Address Line 2</string>
+    <string name="labelCity">City</string>
+    <string name="labelLocality">Locality</string>
+    <string name="labelLandmark">Landmark</string>
+    <string name="labelAddressPhoneNo">Phone Number</string>
+    <string name="labelAddAddress">Save Address</string>
+    <string name="labelSaveAddress">Save Address</string>
+
+    <string name="labelState">State</string>
+    <string name="labelPincode">Pincode</string>
+
+    <string name="labelItems">Items</string>
+    <string name="labelCheckout">Checkout</string>
+
+    <string name="labelPricePerUnit">Price Per Bottle</string>
+    <string name="labelTotalPrice">Total price</string>
+
+    <string name="labelOrderId">Order ID</string>
+    <string name="labelEmptySubscribedQuantity">Please enter subscribed quantity</string>
+    <string name="labelAmount">Total Amount</string>
+
+    <string name="labelAbout">About</string>
+
+    <string name="labelBuyOnce">Buy Once</string>
+    <string name="labelSubscriptin">Subscription</string>
+    <string name="labelOneTimePurchase">One Time Purchase</string>
+    <string name="labelDateOfPurchase">Date Of Purchase</string>
+    <string name="labelTotaAmount">Total Amount</string>
+    <string name="labelMinimumQuantity">(Minimum order quantity is two bottles)</string>
+
+    <string name="labelTo">to</string>
+    <string name="labelOrderedOn">Ordered On</string>
+    <string name="labelEndDate">End Date</string>
+    <string name="labelOrderType">Order Type</string>
+    <string name="labelProduct">Product</string>
+    <string name="labelStartDate">Start Date</string>
+    <string name="labelQuantity">Quantity In Bottles</string>
+    <string name="labelQuantityInLitres">Quantity In Ltr.</string>
+    <string name="labelPrice">Price Per Bottle</string>
+    <string name="labelTotalAmount">Total Amount</string>
+    <string name="labelPaymentStatus">Payment Status</string>
+    <string name="labelModeOfPayment">Mode of Payment</string>
+
+
+    <string name="labelAddToCart">Add To Cart</string>
+    <string name="labelPlaceOrder">Subscribe now</string>
+
+    <string name="label_text_user_name">Username</string>
+    <string name="label_text_name">Name</string>
+    <string name="labelOrderdedOn">Orderded On</string>
+
+
+    <!--nav_drawer-->
+    <string-array name="sideBarItems">
+        <item>Home</item>
+        <item>My Subscriprions</item>
+        <item>View Orders</item>
+        <item>View Bills</item>
+        <item>About Us</item>
+        <item>Contact Us</item>
+        <item>Rate Us</item>
+        <item>Logout</item>
+
+    </string-array>
+
+
+    <string name="message_app_exit">Press again to exit</string>
+
+
+    <string name="title_contact_us">Contact us</string>
+    <string name="title_about_us">About us</string>
+    <string name="title_main_board">Poducts</string>
+    <string name="title_my_plans">My Subscriprions</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_transaction_history">Transaction history</string>
+    <string name="title_view_orders">View orders</string>
+    <string name="title_view_bills">View Bills</string>
+
+
+    <string name="alert_message_logout">Are you sure you want to logout? </string>
+    <string name="alert_title_logout">Logout</string>
+
+
+    <string name="labelEnterPassword">Enter your pssword so that we can send you a new password</string>
+
+    <string name="labelSubmit">Submit</string>
+
+    <string name="labelPasswordSended">New Password has been send to your registered mail id</string>
+
+    <string name="label_phone_number">Phone No</string>
+    <string name="hint_phone_number">Enter Phone No</string>
+
+    <string name="label_email">Email</string>
+    <string name="label_change_password">Change Password</string>
+
+
+    <string name="error_enter_name">Please enter name</string>
+    <string name="error_enter_phoneno">Please enter phoneno</string>
+    <string name="label_profile_updated">Profile updated successfully</string>
+
+    <string name="alert_message_upload_image">Are you sure you want to upload image?. </string>
+
+    <string name="message_image_updated">Image updated successfully</string>
+    <string name="message_password_updated">Password updated successfully</string>
+
+    <string name="error_updating_profile_url">Error updating Profile pic url</string>
+    <string name="ntwk_response_profile_updation">Profile pic updated</string>
+
+    <string name="title_my_profile">Edit Profile</string>
+
+    <string name="label_old_password">Current Password</string>
+    <string name="label_new_password">New Password</string>
+    <string name="label_confirm_password">Confirm new password</string>
+
+
+    <string name="hintOldPassword">Enter Old Password</string>
+    <string name="hint_new_password">Enter new Password</string>
+    <string name="hint_confirm_password">Reenter new password</string>
+
+
+    <string name="error_empty_old_password">Please Enter Current Password</string>
+    <string name="error_incorrect_old_password">Current Password is incorrect</string>
+    <string name="error_empty_new_password">Please Enter new Password</string>
+    <string name="error_empty_confirm_password">Please confirm new password</string>
+    <string name="error_confirm_password_not_matches">Confirm password not matches with new password</string>
+
+
+    <string name="error_updating_password">Error updating Password</string>
+
+    <string name="labelAlternate">Alternate</string>
+    <string name="labelRegular">Regular</string>
+
+
+    <string name="labelSubscribedFor">Subscribed For</string>
+    <string name="labelPlan">Plan</string>
+    <string name="labelStatus">Status</string>
+    <string name="labelType">Order Type</string>
+
+    <string name="labelQuote">:</string>
+    <string name="labelExplore">Explore</string>
+    <string name="labelPayNow">Pay Now</string>
+
+    <string name="labelOrderStatus">Order Status</string>
+
+    <string name="errorMyPlans">Eror My plans</string>
+    <string name="errorMyOrders">Eror My Orders</string>
+    <string name="errorMyBills">Eror My Bills</string>
+    <string name="errorMyTransactions">Eror My Transactions</string>
+    <string name="errorMyAddresses">Eror My Address</string>
+    <string name="errorCities">Eror Cities</string>
+    <string name="errorChnageSubscriptionQunatity">Error in chnage subscription quantity</string>
+    <string name="errorCancelSubscription">Error in cancel subscription </string>
+    <string name="errorHoldSubscription">Error in holding subscription </string>
+    <string name="errorNoSubscription">No Subscription Found</string>
+    <string name="errorNoOrders">No Orders Found</string>
+    <string name="errorNoBills">No Bills Found</string>
+    <string name="errorNoTransactions">No Transactions Found</string>
+
+    <string name="errorCartItems">Error getting cart items</string>
+    <string name="errorAddAtLeastOneItem">Please add at leas one item in cart</string>
+
+    <array name="changeOrder">
+        <item>Change Quantity</item>
+        <item>Hold Subscription</item>
+        <item>Increase Subscription</item>
+        <item>Cancel Subscription</item>
+    </array>
+
+
+    <string name="changeSubscription">Change Subscription</string>
+
+
+    <string name="labelRequiredQuantity">Please Enter Required Quantity</string>
+
+    <string name="label_done">Done</string>
+
+    <string name="messageSubscriptionQuantityUpdated">Subscription Quantity Updated</string>
+    <string name="messageProductQuantityUpdated">Product Quantity Updated</string>
+    <string name="messageSubscriptionCancelledSuccessfully">Subscription Cancelled Successfully</string>
+    <string name="messageProductSuccessfullyDeleted">Product Successfully Deleted</string>
+
+
+    <string name="messageSubscriptionHoldedSuccessfully">Subscription Holded Successfully</string>
+    <string name="messageSubscriptionUnholdedSuccessfully">Subscription Resumed Successfully</string>
+
+    <string name="errorQuantity">Please enter Quantity</string>
+    <string name="errorMinimumQuantity">Minimum order quantity should be two bottles</string>
+
+    <string name="labelMaxSub">Maximum Subscription is 30 days</string>
+    <string name="labelMinSub">Minimum subscrition is 5days so you can not decrease subscription</string>
+
+    <string name="alert_message_cancel_subscription">Are you sure you want to cancel Subscription?. </string>
+    <string name="alert_message_remove_item_from_cart">Are you sure you want to remove this item from cart?. </string>
+
+
+    <string name="labelCartEmpty">Cart is Empty</string>
+    <string name="labelNoSavedAddress">No Saved Address </string>
+    <string name="labelNoCities">No Cities</string>
+    <string name="labelCheckOut">Check Out</string>
+
+    <string name="labelRemove">Remove</string>
+    <string name="labelEdit">Edit</string>
+
+    <string name="error_select_city">Please select city first</string>
+
+    <string name="error_address_title">Please enter address title</string>
+    <string name="error_address">Please enter address </string>
+    <string name="error_city">Please enter city </string>
+    <string name="error_locality">Please select locality </string>
+    <string name="error_pincode">Please enter pincode </string>
+
+    <string name="label_Product">Product</string>
+    <string name="label_Quantity">Quantity</string>
+    <string name="label_Quantity_In_Litre">Qty (in ltrs)</string>
+    <string name="label_Quantity_In_Bottles">Quantity in bottles</string>
+    <string name="label_Total">Total</string>
+    <string name="label_Cash_Ondelivery">Cash On Delivery</string>
+    <string name="label_Pay_Online">Pay Online</string>
+    <string name="label_Total_Bill">Total Amount</string>
+
+
+    <string name="alert_message_confirm_order">Are you sure you want to place this Order?. </string>
+
+    <string name="error_quantity">Please Enter Quantity</string>
+    <string name="message_added_to_cart">Product Successfully added to cart</string>
+    <string name="message_order_placed">Order Successfully Placed</string>
+    <string name="message_subscription_placed">Subscription Successfull"</string>
+    <string name="message_subscription_increased">Subscription increased successfully</string>
+    <string name="message_subscription_resubscribed">Subscription resubscribed successfully</string>
+    <string name="message_subscription_decreased">Subscription decreased successfull"</string>
+    <string name="label_rupees">Rs.</string>
+    <string name="label_rupees_suffix">/-</string>
+
+    <string name="about_us">We all know that all the mammals give milk and all the mammals give milk to feed their own children. Human greed and hunger has led to high amount of adulteration in milk. Due to over milking, the cow release the stress hormones including pituitary, steroid, hypothalamic, and thyroid hormones is transmitted in the milk of the cow.
+
+        \n\nAt our NGO, Maan Mandir Seva Sansthan Trust - Mata ji Gaushala, we make sure that the calves are fed well first and additional milk naturally available are used for human consumption.
+
+        \n\nVyaan is working on providing one of the most essential and important part of our daily diet - Milk and Dairy products. We are using technology and expertise in building complex supply chains to make this possible to deliver raw chilled desi cow milk to our customer on a daily basis. What you get is raw, unpasteurised, chilled milk free from any chemicals or preservatives in hygienic sealed glass bottles.</string>
+
+    <string name="message_day_passed">Passed"</string>
+    <string name="message_leave">Leave"</string>
+    <string name="message_coming">Coming"</string>
+
+    <string name="message_cancel">Cancel"</string>
+    <string name="message_pack_quantity">Quantity per bottle (in ml)</string>
+    <string name="message_price_per_packet">Price per bottle</string>
+    <string name="message_subscribe_quantity">Subscribe Quantity</string>
+    <string name="message_amount">Amount</string>
+    <string name="message_hold">Hold</string>
+    <string name="messageEditSubscription">You can not edit the subscription details after 6:00 clock</string>
+
+    <string name="alert_message_hold_subscription">Are you sure you want to put subscription on hold?. </string>
+    <string name="alert_message_unhold_subscription">Are you sure you want to unhold subscription ?. </string>
+
+    <string name="message_no_subscription">No Subscription on this date</string>
+
+    <string name="alert_user_normal_exist">Please login using email this email is already registered on Vyaan.</string>
+
+    <string name="message_order_placed_popuop">Payment Success Order Placed Successfuly.</string>
+    <string name="message_order_not_placed_popuop">OOps! Payment Failed Order not placed please try some alternate source</string>
+    <string name="message_sub_not_paid_successfully_popuop">OOps! Payment Failed  please try some alternate source</string>
+
+    <string name="message_cancel_transaction">Are you sure you want to cancel transaction?.</string>
+    <string name="title_cancel_transaction">Cancel Transaction</string>
+    <string name="title_pay_u_activity">Payment</string>
+
+    <string name="textOtp">Enter One Time Password (OTP) sent to </string>
+    <string name="textIncorrectOtp">Incorrect OTP. Try Again</string>
+    <string name="textSendOtpAgain">Send OTP again</string>
+    <string name="textSubmit">Submit</string>
+    <string name="textChangeMobileNo">Change Mobile No.</string>
+
+    <string name="textOtpConfirmed">Your OTP has been confirmed and account has been created.Please Login Now.</string>
+    <string name="textGoToLogin">Go To Login</string>
+
+    <string name="messageMobileVerified">Mobile Number Authenticated</string>
+    <string name="messageMobileNotVerified">Mobile Number not Authenticated</string>
+    <string name="emptyOtp">Please enter OTP</string>
+    <string name="messageNoValidated">OTP validation successful</string>
+    <string name="messageOtpInvalid">OTP is Incorrect</string>
+    <string name="messageOtpResent">OTP Resended</string>
+
+    <string name="messageExit">Press again to exit</string>
+
+    <string name="messageSubscriptionCancelled">Subscription cancelled</string>
+
+
+    <string name="titlePlaceSubscription">Place Subscription</string>
+    <string name="messagePlaceSubscription">Are you sure you want to create subscription?.</string>
+
+
+    <string name="titleAlreadySubscribed">Already Subscribed</string>
+    <string name="messageSubscriptionExist">At one time you can Subscribe single subscription for each product</string>
+
+</resources>

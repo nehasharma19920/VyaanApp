@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#95d245</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#95d245</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="button_color">#95d242</color>
+    <color name="button_color_opaque">#7095d242</color>
+    <color name="color_google">#d34836</color>
+    <color name="color_fb">#3b5998</color>
+    <color name="blue">#94D245</color>
+    <color name="grey">#9b9b9b</color>
+    <color name="grey_line">#bdbdbd</color>
+    <color name="blackSeventyPercentTransparent">#CC9b9b9b</color>
+
+
+    <!--dashboard_activity-->
+    <color name="background_nav_header">#F2F2F2</color>
+
+    <!--nav_drawer-->
+    <color name="text_nav_menu_items">#212121</color>
+
+
+    <color name="color_outer_circle_pic">#DFDFDF</color>
+
+    <color name="light_grey">#30757575</color>
+
+
+    <color name="colorBg">#F5F5F5</color>
+</resources>

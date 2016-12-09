@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:isScrollContainer="true"
+    android:overScrollMode="never"
+    tools:context="com.neon.vyaan.activity.LoginActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <ImageView
+            android:id="@+id/imageLogo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/margin_large"
+            android:src="@drawable/image_vyaan"/>
+
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_large"
+            android:hint="@string/hint_email"
+            android:singleLine="true"/>
+
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_large"
+            android:hint="@string/hint_password"
+            android:inputType="textPassword"
+            android:singleLine="true"/>
+
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_xlarge"
+            android:background="@drawable/bg_button"
+            android:text="@string/label_login"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_large"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_large">
+
+            <TextView
+                android:id="@+id/textSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hint_sign_up"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/font_large"/>
+
+            <TextView
+                android:id="@+id/textForgetPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="@string/hint_forgot_password"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/font_large"/>
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_large"
+            android:gravity="center_horizontal"
+            android:text="@string/label_Or_Login"
+            android:textColor="@color/black"
+            android:textSize="@dimen/font_large"/>
+
+        <RelativeLayout
+            android:id="@+id/containerGoogleLogin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_xlarge"
+            android:background="@drawable/bg_button_google"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imageGoogleSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:paddingLeft="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image_google"
+                android:textSize="@dimen/font_large"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:layout_toRightOf="@+id/imageGoogleSignUp"
+                android:background="@color/color_google"
+                android:text="@string/label_google_login_button"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_large"></TextView>
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:id="@+id/containerFacebookLogin"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="@dimen/margin_xlarge"
+            android:layout_marginLeft="@dimen/margin_large"
+            android:layout_marginRight="@dimen/margin_large"
+            android:layout_marginTop="@dimen/margin_xlarge"
+            android:background="@drawable/bg_button_fb"
+            android:orientation="horizontal">
+
+
+            <ImageView
+                android:id="@+id/imagefacebookSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:paddingLeft="5dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/image_fb"
+                android:textSize="@dimen/font_large"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="@dimen/margin_large"
+                android:layout_toRightOf="@+id/imagefacebookSignUp"
+                android:text="@string/label_fb_login_button"
+                android:textColor="@color/white"
+                android:textSize="@dimen/font_large"></TextView>
+        </RelativeLayout>
+
+    </LinearLayout>
+</ScrollView>
