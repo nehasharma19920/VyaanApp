@@ -43,7 +43,7 @@ public class OrderConfirmationAdapter extends RecyclerView.Adapter<OrderConfirma
                 cartModelList.get(pos).getProductPrice());*/
 
         holder.textProductQuantity.setText("" + (Float) (Float.parseFloat(String.valueOf(cartModelList.get(pos).getProductQuantity())) / 2) + " * " +
-                cartModelList.get(pos).getProductPrice());
+                (cartModelList.get(pos).getProductPrice()*2));
 
 
         holder.textProductTotal.setText("Rs. " + cartModelList.get(pos).getProductQuantity() * cartModelList.get(pos).getProductPrice());

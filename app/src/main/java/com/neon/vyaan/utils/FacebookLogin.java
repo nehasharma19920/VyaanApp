@@ -16,6 +16,7 @@ import android.widget.ImageView;
 
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
+import com.facebook.FacebookAuthorizationException;
 import com.facebook.FacebookCallback;
 import com.facebook.FacebookException;
 import com.facebook.GraphRequest;
@@ -103,7 +104,13 @@ public class FacebookLogin {
 
             @Override
             public void onError(FacebookException e) {
-                Log.e("error is", e.toString());
+                Log.e("FacebookException is = ", e.toString());
+                if (e instanceof FacebookAuthorizationException) {
+                    if (AccessToken.getCurrentAccessToken() != null) {
+                        if (loginManager != null)
+                            loginManager.logOut();
+                    }
+                }
             }
         };
 
@@ -112,6 +119,8 @@ public class FacebookLogin {
 
     public void facebookSingnUp() {
         definingCallback();
+        if (loginManager != null)
+            loginManager.logOut();
         if (flag == 0) {
             loginManager.logInWithReadPermissions(activity, Arrays.asList("email", "user_friends"));
             loginManager.registerCallback(callbackManager, facebookCallback);

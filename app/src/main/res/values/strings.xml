@@ -2,7 +2,8 @@
     <string name="app_name">Vyaan</string>
 
 
-    <string name="facebook_app_id">1360221944006655</string>
+    <!--<string name="facebook_app_id">1360221944006655</string>-->
+    <string name="facebook_app_id">1240232942721045</string>
     <!--VALIDATOR-->
     <string name="error_phone_no_invalid">Please provide 10 digit mobile number</string>
     <string name="error_additional_zero">Please provide number without zero</string>

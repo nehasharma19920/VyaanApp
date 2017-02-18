@@ -253,7 +253,7 @@ public class NewAddress extends BaseActivity {
 
     public void addNewAddress() {
 
-
+        progressDialog(currentActivity, currentActivity.getString(R.string.pdialog_message_loading), currentActivity.getString(R.string.pdialog_message_loading), false, false);
         String json = new Gson().toJson(initAddAddressModel());
         logTesting("add address request json", json, Log.ERROR);
         JSONObject jsons = null;
@@ -268,7 +268,6 @@ public class NewAddress extends BaseActivity {
             @Override
             public void onResponse(JSONObject response) {
                 logTesting("responce is", response.toString(), Log.ERROR);
-
                 try {
                     logTesting("is successfull add address", "hi" + response.getBoolean(AppConstants.KEY_ERROR), Log.ERROR);
                     if (!response.getBoolean(AppConstants.KEY_ERROR)) {
